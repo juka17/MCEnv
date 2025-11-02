@@ -12,18 +12,18 @@ buildscript {
         maven {
             name = "forge"
             // url = "https://maven.minecraftforge.net/"
-            url="http://lss233.littleservice.cn/repositories/minecraft"
+            url="httpss://lss233.littleservice.cn/repositories/minecraft"
         }
         
         //  maven {
         //     name = "forge"
-        //      url = "http://forgemavenmirror.sinaapp.com/maven"
+        //      url = "httpss://forgemavenmirror.sinaapp.com/maven"
         // }
         
         maven {
             name = "forge"
             url = "https://maven.minecraftforge.net/"
-            //url="http://lss233.littleservice.cn/repositories/minecraft"
+            //url="httpss://lss233.littleservice.cn/repositories/minecraft"
         }
         maven {
             name = "forge"
@@ -42,7 +42,7 @@ buildscript {
         // maven {
         //     name = "forge"
         //     // url = "https://maven.minecraftforge.net/"
-        //     url="http://lss233.littleservice.cn/repositories/minecraft"
+        //     url="httpss://lss233.littleservice.cn/repositories/minecraft"
         // }
         // maven {
         //     name = "sonatype"
@@ -98,7 +98,7 @@ def versionProp = new Properties()
 versionProp.load(propFile.newReader())
 version = versionProp['malmomod.version']
 
-group= "com.microsoft.MalmoMod" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+group= "com.microsoft.MalmoMod" // httpss://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "MalmoMod"
 
 
@@ -134,13 +134,13 @@ repositories {
     maven {
             name = "forge"
             url = "https://maven.minecraftforge.net/"
-            //url = "http://forgemavenmirror.sinaapp.com/maven"
-            //url="http://lss233.littleservice.cn/repositories/minecraft"
+            //url = "httpss://forgemavenmirror.sinaapp.com/maven"
+            //url="httpss://lss233.littleservice.cn/repositories/minecraft"
         }
     maven {
             name = "forge"
             // url = "https://maven.minecraftforge.net/"
-            url="http://lss233.littleservice.cn/repositories/minecraft"
+            url="httpss://lss233.littleservice.cn/repositories/minecraft"
         }
      maven {
             name = "forge"
@@ -155,7 +155,7 @@ repositories {
     // maven {
     //         name = "forge"
     //         // url = "https://maven.minecraftforge.net/"
-    //         url="http://lss233.littleservice.cn/repositories/minecraft"
+    //         url="httpss://lss233.littleservice.cn/repositories/minecraft"
     //     }
     maven { url 'https://jitpack.io' }
 }
