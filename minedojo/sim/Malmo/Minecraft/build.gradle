@@ -54,7 +54,7 @@ buildscript {
 
     dependencies {
         classpath 'org.ow2.asm:asm:6.0'
-        classpath fileTree(dir: '/content/useful/MixinGradle-dcfaf61/MixinGradle/dcfaf61', include: '*.jar')
+        classpath fileTree(dir: '/kaggle/working/useful/MixinGradle-dcfaf61/MixinGradle/dcfaf61', include: '*.jar')
 
         classpath 'com.github.brandonhoughton:ForgeGradle:FG_2.2_patched-SNAPSHOT'
         //classpath 'net.minecraftforge.gradle:ForgeGradle:FG_2.2_patched-SNAPSHOT'
